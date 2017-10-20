@@ -1,0 +1,89 @@
+body{
+   background:url('https://i.ytimg.com/vi/a_d921ztZCI/maxresdefault.jpg');
+   background-size:100%;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-color:#747c77;
+   margin:0;
+   height:80%;
+   padding:0;
+
+}
+
+hr{
+   margin:40px;
+   border:2px dashed #ffffff;
+
+}
+#container{
+  background-color:#808080;
+  height: 240px;
+  border-top: 2px solid gold;
+  border-bottom: 2px solid gold;
+  margin: 23% 0 0 0;
+  padding:20px;
+
+}
+
+#racer1{
+  position: relative;
+  width:100px;
+  height:75px;
+  background-color:blue;
+  background:url('http://6ledesigns.com/wp-content/uploads/2017/06/C7-CC6-ZL1-SS-P1_02.jpg');
+  background-size: 100%;
+  text-align: center;
+  color:#150047;
+
+/*  animation:move 3s;*/
+}
+.race1{
+    animation:move 3s;
+}
+
+#racer2{
+  position: relative;
+  width:100px;
+  height:75px;
+  background-color:red;
+  background: url('http://st.automobilemag.com/uploads/sites/11/2013/12/2015-Ford-Mustang-right-side-view.jpg');
+  background-size:100%;
+  text-align:center;
+  color:#150047;
+/*  animation:move 2s; */
+}
+.race2{
+    animation:move 2s;
+}
+
+#screen{
+  color:#3a556a;
+  position:absolute;
+  top:8%;
+  left:20%;
+  height:180px;
+  width:350px;
+  display:inline;
+  background-color:white;
+  font-size:70px;
+  text-align:center;
+  margin-top:4%;
+  border-radius: 20%;
+  overflow: hidden;
+}
+button{
+
+  background-color: #ffffff;
+  text-align:center;
+  margin:30px 0 30px 290px;
+  font-size: 40px;
+  border-radius:20%;
+  color:#3a556a;
+  font-style: italic;
+  width:350px;
+}
+
+@keyframes move {
+  0% { left:0;}
+  100%{ left:100%;}
+}
